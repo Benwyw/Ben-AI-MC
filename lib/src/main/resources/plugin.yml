@@ -17,28 +17,33 @@ prefix: BenAIMC
 commands:
   rich:
     description: Give player 9 set of diamond
-    aliases:
-    - iamrich
-    - diamond
+    #aliases:
+    #- iamrich
+    #- diamond
     permission: test.foo
     permission-message: You do not have permission!
     usage: /<command> [test|stop]
   clear:
     description: Clear player inventory
-    aliases:
-    - wipe
-    - clearinventory
+    #aliases:
+    #- wipe
+    #- clearinventory
     permission: test.foo
     permission-message: You do not have permission!
     usage: /<command>
   light:
     description: Damage target player
-    aliases:
-    - damage
-    - destroy
+    #aliases:
+    #- damage
+    #- destroy
     permission: test.foo
     permission-message: You do not have permission!
     usage: /<command> [player]
+  overlord:
+    description: Become overlord
+    permission: test.foo
+    permission-message: You do not have permission!
+    usage: /<command>
 permissions:
   test.foo:
     description: Allows foo command
