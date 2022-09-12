@@ -14,5 +14,7 @@ gradle-app.setting
 # Eclipse Gradle plugin generated files
 # Eclipse Core
 .project
+# Eclipse
+**/bin
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
